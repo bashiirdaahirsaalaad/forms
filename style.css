@@ -1,0 +1,53 @@
+/* Apply basic styling to the form */
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Add some spacing and style the h2 header */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style for form validation messages (optional) */
+.required:after {
+    content: ' *';
+    color: red;
+}
+
+/* Additional styles can be added to customize the form's appearance further. */
